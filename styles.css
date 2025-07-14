@@ -21,7 +21,7 @@ body, h1, h2, h3, h4, h5, h6, p {
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
     --bs-body-color: #212529;
-    --bs-body-bg: #fff;
+    --bs-body-bg: #1e1e1e;
 }
 
 html,
