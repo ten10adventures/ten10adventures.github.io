@@ -1,4 +1,7 @@
-@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
 /*!
 * Start Bootstrap - Landing Page v6.0.6 (https://startbootstrap.com/theme/landing-page)
 * Copyright 2013-2023 Start Bootstrap
