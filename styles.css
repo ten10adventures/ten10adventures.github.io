@@ -1,35 +1,78 @@
+
+/*!
+* Start Bootstrap - Landing Page v6.0.6 (https://startbootstrap.com/theme/landing-page)
+* Copyright 2013-2023 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
+*/
+
 /* Font override */
 body, h1, h2, h3, h4, h5, h6, p {
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
-*{
-  margin: 0;
-  padding: 0;
+.navbar-brand,
+.navbar-nav .nav-link {
+    font-family: 'Bai Jamjuree', sans-serif;
 }
-body{
-  min-height: 100vh;
-  background-color: #c6bfa6
-  font-family: 'Bai Jamjuree', sans-serif;
+
+:root {
+    --bs-body-font-family: 'Bai Jamjuree', sans-serif;
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+    --bs-body-bg: #1e1e1e;
 }
-nav{
-  background-color: #f6f4eb:
-  box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.1);
+
+html,
+body {
+    height: 100%;
 }
-nav ul{
-  width: 100%
-  list-style: no;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+
+body {
+    margin: 0;
+    padding: 0;                                                                         
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
 }
 
 /* Masthead */
 .masthead {
     position: relative;
     background-color: #1e2d2f;
+    color: white;
     padding-top: 3rem;
     padding-bottom: 8rem;
     background-size: cover;
     background-position: center;
+}
+
+.masthead h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.masthead p.lead {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+/* Navbar overrides */
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Responsive container paddings */
+.container {
+    max-width: 1140px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
