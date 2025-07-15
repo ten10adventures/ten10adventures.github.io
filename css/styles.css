@@ -34,11 +34,12 @@ body {
     text-decoration: none;
 }
 
-.nav-links {
-  list-style: none;
+.nav-links li {
+  border-left: 1px solid #999;
+  padding: 0 1rem;
   display: flex;
-  margin: 0;
-  padding: 0;
+  align-items: center;
+  height: 100%;
 }
 
 .nav-links li {
