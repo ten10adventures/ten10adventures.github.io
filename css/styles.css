@@ -63,3 +63,38 @@ body {
 .nav-links a:hover {
   color: #666;
 }
+
+.image-section {
+  padding: 4rem 2rem;
+  background-color: #f6f4eb;
+  text-align: center;
+}
+
+.image-section h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.image-row {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image-item {
+  width: 300px;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.image-item p {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #333;
+}
