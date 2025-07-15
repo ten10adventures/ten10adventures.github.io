@@ -35,13 +35,6 @@ body {
   text-decoration: none;
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
 .nav-links li {
   border-left: 1px solid #999;
   padding: 0 1rem;
@@ -62,8 +55,11 @@ body {
 }
 
 .nav-links {
-  display: flex !important;
+  list-style: none;
+  display: flex;
   flex-direction: row;
+  margin: 0;
+  padding: 0;
 }
 
 .image-section {
