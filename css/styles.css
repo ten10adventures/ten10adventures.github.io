@@ -62,6 +62,20 @@ body {
   padding: 0;
 }
 
+.homepage-intro {
+  background-color: #f6f4eb;
+  padding: 3rem 2rem;
+  text-align: center;
+  color: #111;
+}
+
+.homepage-intro p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 1rem auto;
+  line-height: 1.6;
+}
+
 .image-section {
   padding: 4rem 2rem;
   background-color: ##c6bfa6;
