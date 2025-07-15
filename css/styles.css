@@ -61,6 +61,11 @@ body {
   transition: color 0.2s;
 }
 
+.nav-links {
+  display: flex !important;
+  flex-direction: row;
+}
+
 .image-section {
   padding: 4rem 2rem;
   background-color: #f6f4eb;
