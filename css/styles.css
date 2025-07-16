@@ -146,12 +146,9 @@ body {
   z-index: 1;
 }
 
-.mountain-quote {
-  position: absolute;
-  bottom: 40px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 1rem;
-  color: #333;
-  font-style: italic;
+.image-section p {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  line-height: 1.6;
+}
 }
