@@ -145,3 +145,13 @@ body {
   backdrop-filter: blur(10px);
   z-index: 1;
 }
+
+.mountain-quote {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1rem;
+  color: #333;
+  font-style: italic;
+}
