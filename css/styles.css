@@ -119,7 +119,7 @@ body {
   background-image: url('assets/img/mountains.jpg');
   background-size: cover;
   background-position: center;
-  height: 500px; /* You can adjust height */
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -135,4 +135,5 @@ body {
   font-size: 1.1rem;
   line-height: 1.6;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px)
 }
