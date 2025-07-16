@@ -117,34 +117,31 @@ body {
 
 .mountain-hero {
   position: relative;
-  height: 500px;
+  height: 100%;
   overflow: hidden;
 }
 
 .hero-img {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: centre top;
+  height: auto;
+  display: block;
+  position: relative;
   z-index: 0;
 }
 
 .mountain-hero .intro-text {
-  position: relative;
-  z-index: 1;
-  background-color: rgba(255, 255, 255, 0.55);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 2rem;
   border-radius: 20px;
   max-width: 700px;
-  margin: 0 auto;
-  top: 50%;
-  transform: translateY(-50%);
   text-align: center;
   font-size: 1.1rem;
   line-height: 1.6;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
+  z-index: 1;
 }
