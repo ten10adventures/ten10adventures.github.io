@@ -117,7 +117,7 @@ body {
 
 .mountain-hero {
   position: relative;
-  height: 450px; /* adjust to fit your layout */
+  height: 450px;
   background-image: url('assets/img/mountain 2.jpg');
   background-size: cover;
   background-position: center 25%;
