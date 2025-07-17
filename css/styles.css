@@ -129,7 +129,7 @@ body {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  object-position: center 30%;
+  object-position: center 20%;
   z-index: 0;
 }
 
